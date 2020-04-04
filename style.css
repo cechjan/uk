@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.bootstrap-off {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+/*footer,*/ /*header,*/ hgroup, menu, nav, section, .nav-item, .nav-link, .navbar-nav, .navbar {
+	display: block;
+}
+
+
+.header {
+    background-image: url("ETC_D_Velka_Britanie.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.title {
+    color: white;
+    font-size: 70px;
+    font-family: 'Bree Serif', serif;
+}
+
+@media screen and (max-width: 575px) {
+  .title {
+      padding-top: 32px;
+  }
+}
+
+.secondary-title {
+  font-size: 30px;
+  background-color: #6daad3;
+  color: white;
+  padding-left: 2.5%;
+}
+
+.aside-title {
+  font-size: 30px;
+  padding-left: 5%;
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .aside-title {
+    margin-top: 50px;
+  }
+}
+
+body {
+  color: #1a1b1c !important;
+  background-color: white !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar {
+  background-color: #23232e !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  margin-top: 210px;
+}
+
+.navbar-nav {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+
+.nav-item {
+  width: 100% !important;
+}
+
+.nav-item:last-child {
+  margin-top: auto !important;
+}
+
+.nav-link {
+  display: flex !important;
+  align-items: center !important;
+  height: 5rem !important;
+  color: #b6b6b6 !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  background: #141418 !important;
+}
+.navbar {
+  top: 0 !important;
+  height: 5rem !important;
+}
+.navbar-nav {
+  flex-direction: row !important;
+}
+
+.nav-link {
+  justify-content: center !important;
+}
+
+main {
+  margin: 0 !important;
+}
+
+.table-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.table-bold {
+  font-weight: 650;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 20px;
+}

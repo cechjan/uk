@@ -1,0 +1,366 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.bootstrap-off {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+/*footer,*/ /*header,*/ hgroup, menu, nav, section, .nav-item, .nav-link, .navbar-nav, .navbar {
+	display: block;
+}
+
+
+.header {
+    background-image: url("../img/ETC_D_Velka_Britanie.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.header-history {
+  background-image: url("../history/img/map.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+
+.title {
+    color: white;
+    font-size: 70px;
+    font-family: 'Bree Serif', serif;
+}
+
+@media screen and (max-width: 575px) {
+  .title {
+      padding-top: 32px;
+  }
+}
+
+.title-history {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: 'Bree Serif', serif;
+}
+
+@media screen and (max-width: 575px) {
+.title-history {
+    padding-top: 32px;
+}
+}
+
+.secondary-title {
+  font-size: 30px;
+  background-color: #6daad3;
+  color: white;
+  padding-left: 2.5%;
+}
+
+.aside-title {
+  font-size: 30px;
+  padding-left: 5%;
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .aside-title {
+    margin-top: 50px;
+  }
+}
+
+body {
+  color: #1a1b1c !important;
+  background-color: white !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar {
+  background-color: #23232e !important;
+  margin-left: 10% ;
+  margin-right: 10% ;
+  margin-top: 210px;
+}
+
+
+.navbar-history {
+  background-color: #23232e !important;
+  margin-left: 10% ;
+  margin-right: 10% ;
+  margin-top: 60px;
+}
+
+
+.navbar-nav {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+
+.nav-item {
+  width: 100% !important;
+}
+
+.nav-item:last-child {
+  margin-top: auto !important;
+}
+
+.nav-link {
+  display: flex !important;
+  align-items: center !important;
+  height: 5rem !important;
+  color: #b6b6b6 !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  background: #141418 !important;
+}
+.navbar {
+  top: 0 !important;
+  height: 5rem !important;
+}
+.navbar-nav {
+  flex-direction: row !important;
+}
+
+.nav-link {
+  justify-content: center !important;
+}
+
+main {
+  margin: 0 !important;
+}
+
+.table-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.table-bold {
+  font-weight: 700;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.bg-dark {
+  background-color: rgb(10, 9, 9);
+  color: white !important;
+}
+
+
+.spinEffect {
+  -webkit-animation: spin 0.5s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  0% {-webkit-transform: rotate(0deg);}
+  100% {-webkit-transform: rotate(360deg);}
+}
+
+.img-hidden {
+  display: none;
+}
+
+.img-rotate {
+  height: 200px;
+  position: relative;
+}
+
+.fontSizeEffect {
+  -webkit-animation: sizeOfFont 5s infinite linear;
+}
+
+@-webkit-keyframes sizeOfFont {
+  0% {font-size: 15px;}
+  50% {font-size: 20px;}
+  100% {font-size: 15px;}
+}
+
+.paddingEffect {
+  -webkit-animation: tablePadding 4s infinite linear;
+}
+
+@-webkit-keyframes tablePadding {
+  0% {padding-top: 25px; padding-bottom: 25px;}
+  50% {padding-top: 50px; padding-bottom: 50px;}
+  100% {padding-top: 25px; padding-bottom: 25px;}
+}
+
+.teaEffect {
+  -webkit-animation: tea 2s infinite linear;
+}
+
+@-webkit-keyframes tea {
+  0% {width: 100px;}
+  50% {width: 200px;}
+  100% {width: 100px;}
+}
+
+.borisEffect {
+  -webkit-animation: boris 2s infinite linear;
+}
+
+@-webkit-keyframes boris {
+  0% {height: 200px;}
+  50% {height: 100px;}
+  100% {height: 200px;}
+}
+
+.opacityEffect {
+  -webkit-animation: opacity 4s infinite linear;
+}
+
+@-webkit-keyframes opacity {
+  0% {opacity: 100%;}
+  50% {opacity: 10%;}
+  100% {opacity: 100%};
+}
+
+
+
+/*    History    */
+
+#rok-obdobi {
+  background-color: #6daad3;
+  color: white;
+}
+
+.btn-obdobi {
+  display:block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  background-color: rgb(224, 224, 224);
+  margin-top: 7px;
+}
+
+.btn-obdobi:focus {
+  outline: none;
+}
+
+.btn-obdobi-center {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/*.text-obdobi {
+  font-size: 20px;
+}
+
+.bez-prnl {
+  margin-right: 30px;
+}*/
+
+.checkmark {
+  position: absolute;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container-radion-btn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.container-radion-btn:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container-radion-btn input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container-radion-btn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container-radion-btn .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.container-radion-btn {
+  font-size: 18px;
+}
+
+.card {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.card-img {
+  height: 350px;
+  width: 192px;
+}
+
+.arrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.people-biography {
+  width: 150px;
+  /*margin-right: 5%;*/
+  position: relative;
+  transform: translateY(+15%);
+}
+
+.casovaOsaRoky {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.opacityEffect-history {
+  -webkit-animation: opacity-history 1s linear;
+}
+
+@-webkit-keyframes opacity-history {
+  0% {opacity: 0%;}
+  100% {opacity: 100%}
+}
+
+.udalost {
+  padding-left: 5%;
+  padding-right: 5%;
+}

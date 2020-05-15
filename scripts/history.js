@@ -111,7 +111,7 @@ const people2Period = [
         "birth":"1003",
         "death":"5. 1. 1066",
         "biography":"Eduard III. Vyznavač byl předposledním anglickým králem anglosaského původu. Vládl od roku 1042 až do své smrti.",
-        "picture":"img/eduardIII.png"
+        "picture":"img/eduardIIIvyznavac.png"
     },
     {
         "name":"Harold II. Godwinson",

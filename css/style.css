@@ -364,3 +364,434 @@ main {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+
+
+
+/*    Geography   */
+
+/*.region-click {
+  -webkit-animation: opacity-history 1s linear;
+}
+
+@-webkit-keyframes opacity-history {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: -20% 70%; transform: scale(2)}
+}*/
+
+
+.header-geography {
+  background-image: url("../geography/img/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+
+/*  Northern Ireland  */
+
+.region-GB-UKN {
+  -webkit-animation: GB-UKN 1s linear;
+}
+
+@-webkit-keyframes GB-UKN {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 25% 60%; transform: scale(3)}
+}
+
+.region-GB-UKN-transformed {
+  transform-origin: 25% 60%;
+  transform: scale(3);
+}
+
+.region-GB-UKN-backwards {
+  -webkit-animation: GB-UKN-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKN-BACKWARDS {
+  0% {transform-origin: 25% 60%; transform: scale(3);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  Scotland  */
+
+.region-GB-UKM {
+  -webkit-animation: GB-UKM 1s linear;
+}
+
+@-webkit-keyframes GB-UKM {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 50% -10%; transform: scale(1.5)}
+}
+
+.region-GB-UKM-transformed {
+  transform-origin: 50% -10%;
+  transform: scale(1.5);
+}
+
+.region-GB-UKM-backwards {
+  -webkit-animation: GB-UKM-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKM-BACKWARDS {
+  0% {transform-origin: 50% -10%; transform: scale(1.5);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  Wales */
+
+.region-GB-UKL {
+  -webkit-animation: GB-UKL 1s linear;
+}
+
+@-webkit-keyframes GB-UKL {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 55% 90%; transform: scale(3)}
+}
+
+.region-GB-UKL-transformed {
+  transform-origin: 55% 90%;
+  transform: scale(3);
+}
+
+.region-GB-UKL-backwards {
+  -webkit-animation: GB-UKL-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKL-BACKWARDS {
+  0% {transform-origin: 55% 90%; transform: scale(3);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+
+/*  North East  */
+
+.region-GB-UKC {
+  -webkit-animation: GB-UKC 1s linear;
+}
+
+@-webkit-keyframes GB-UKC {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 80% 55%; transform: scale(4)}
+}
+
+.region-GB-UKC-transformed {
+  transform-origin: 80% 55%;
+  transform: scale(4);
+}
+
+.region-GB-UKC-backwards {
+  -webkit-animation: GB-UKC-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKC-BACKWARDS {
+  0% {transform-origin: 80% 55%; transform: scale(4);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  North West  */
+
+.region-GB-UKD {
+  -webkit-animation: GB-UKD 1s linear;
+}
+
+@-webkit-keyframes GB-UKD {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 80% 70%; transform: scale(2.5)}
+}
+
+.region-GB-UKD-transformed {
+  transform-origin: 80% 70%;
+  transform: scale(2.5);
+}
+
+.region-GB-UKD-backwards {
+  -webkit-animation: GB-UKD-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKD-BACKWARDS {
+  0% {transform-origin: 80% 70%; transform: scale(2.5);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  Yorkshire and the Humber  */
+
+.region-GB-UKE {
+  -webkit-animation: GB-UKE 1s linear;
+}
+
+@-webkit-keyframes GB-UKE {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 90% 70%; transform: scale(3)}
+}
+
+.region-GB-UKE-transformed {
+  transform-origin: 90% 70%;
+  transform: scale(3);
+}
+
+.region-GB-UKE-backwards {
+  -webkit-animation: GB-UKE-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKE-BACKWARDS {
+  0% {transform-origin: 90% 70%; transform: scale(3);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  West Midlands   */
+
+.region-GB-UKG {
+  -webkit-animation: GB-UKG 1s linear;
+}
+
+@-webkit-keyframes GB-UKG {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 80% 90%; transform: scale(3)}
+}
+
+.region-GB-UKG-transformed {
+  transform-origin: 80% 90%;
+  transform: scale(3);
+}
+
+.region-GB-UKG-backwards {
+  -webkit-animation: GB-UKG-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKG-BACKWARDS {
+  0% {transform-origin: 80% 90%; transform: scale(3);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  East Midlands   */
+
+.region-GB-UKF {
+  -webkit-animation: GB-UKF 1s linear;
+}
+
+@-webkit-keyframes GB-UKF {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 100% 80%; transform: scale(3)}
+}
+
+.region-GB-UKF-transformed {
+  transform-origin: 100% 80%;
+  transform: scale(3);
+}
+
+.region-GB-UKF-backwards {
+  -webkit-animation: GB-UKF-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKF-BACKWARDS {
+  0% {transform-origin: 100% 80%; transform: scale(3);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  East of England   */
+
+.region-GB-UKH {
+  -webkit-animation: GB-UKH 1s linear;
+}
+
+@-webkit-keyframes GB-UKH {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 110% 90%; transform: scale(3)}
+}
+
+.region-GB-UKH-transformed {
+  transform-origin: 110% 90%;
+  transform: scale(3);
+}
+
+.region-GB-UKH-backwards {
+  -webkit-animation: GB-UKH-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKH-BACKWARDS {
+  0% {transform-origin: 110% 90%; transform: scale(3);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  South East  */
+
+.region-GB-UKJ {
+  -webkit-animation: GB-UKJ 1s linear;
+}
+
+@-webkit-keyframes GB-UKJ {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 110% 110%; transform: scale(2.5)}
+}
+
+.region-GB-UKJ-transformed {
+  transform-origin: 110% 110%;
+  transform: scale(2.5);
+}
+
+.region-GB-UKJ-backwards {
+  -webkit-animation: GB-UKJ-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKJ-BACKWARDS {
+  0% {transform-origin: 110% 110%; transform: scale(2.5);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  South West  */
+
+.region-GB-UKK {
+  -webkit-animation: GB-UKK 1s linear;
+}
+
+@-webkit-keyframes GB-UKK {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 65% 120%; transform: scale(2)}
+}
+
+.region-GB-UKK-transformed {
+  transform-origin: 65% 120%;
+  transform: scale(2);
+}
+
+.region-GB-UKK-backwards {
+  -webkit-animation: GB-UKK-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKK-BACKWARDS {
+  0% {transform-origin: 65% 120%; transform: scale(2);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+/*  Great London  */
+
+.region-GB-UKI {
+  -webkit-animation: GB-UKI 1s linear;
+}
+
+@-webkit-keyframes GB-UKI {
+  0% {transform-origin: 50% 50%;}
+  100% {transform-origin: 92% 90%; transform: scale(6)}
+}
+
+.region-GB-UKI-transformed {
+  transform-origin: 92% 90%;
+  transform: scale(6);
+}
+
+.region-GB-UKI-backwards {
+  -webkit-animation: GB-UKI-BACKWARDS 1s linear;
+}
+
+@-webkit-keyframes GB-UKI-BACKWARDS {
+  0% {transform-origin: 92% 90%; transform: scale(6);}
+  100% {transform-origin: 50% 50%; transform: scale(1)}
+}
+
+
+.fa-arrow-left {
+  cursor: pointer;
+}
+
+.arrow-space {
+  margin-top: 33px;
+}
+
+.region-pointer {
+  cursor: pointer;
+}
+
+.city-text {
+  text-align: justify;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider-text {
+  font-size: 20px;
+  padding-right: 70px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.row1{
+  text-align:center;
+  margin:0 auto;
+}
+
+.switch2{
+  display:inline-block;
+  vertical-align: middle;
+  float: none;
+}
